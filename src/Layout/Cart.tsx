@@ -1,4 +1,3 @@
-import * as React from 'react'
 import { useDispatch, useSelector, shallowEqual } from 'react-redux'
 import CartItem from '../components/CartItem'
 import { Container } from '../components/styledComponent'
@@ -7,7 +6,7 @@ import type { AppDispatch, RootState } from '../reducers/store'
 
 // I know that this component render everything each time a change is made
 // one cause is that I didn't use React.useCallback for fcts that are passed as props
-// the second cause is that he have an object as props and comparing an object with the same object (but different refference)
+// the second cause is that we have an object as props and comparing an object with the same object (but different refference)
 // will always gives false so It will re render
 //
 export default function Cart() {

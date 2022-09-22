@@ -16,6 +16,7 @@ export const ProductContainer = styled(Container)`
 `
 export const Button = styled.button`
   width: fit-content;
+  cursor: pointer;
   padding: 4px 40px;
   border: 0;
   border-radius: 4px;

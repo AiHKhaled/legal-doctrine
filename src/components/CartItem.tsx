@@ -27,8 +27,8 @@ function CartItem({ product, onAddButton, onSubtractButton }: props) {
       <Image
         src={product.image}
         alt={product.name}
-        height={120}
-        width={150}
+        height={80}
+        width={90}
         style={{
           borderRadius: '50%',
           border: '2px solid gray',
